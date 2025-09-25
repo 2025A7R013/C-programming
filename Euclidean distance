@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+ int a,b,c,d;
+    float EuclideanDistance;
+    
+    scanf("%d %d %d %d", &a, &b ,&c ,&d);
+    
+    EuclideanDistance = sqrt(((a-c) * (a-c)) + ((b-d) * (b-d)));
+    
+    printf("%0.2f\n",EuclideanDistance);
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
